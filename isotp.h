@@ -19,7 +19,8 @@ extern "C" {
  * The data stored in this struct is used internally and may be used by software programs
  * using this library.
  */
-typedef struct IsoTpLink {
+typedef struct IsoTpLink
+{
     /* sender paramters */
     uint32_t                    send_arbitration_id; /* used to reply consecutive frame */
     /* message buffer */
